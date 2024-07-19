@@ -3,7 +3,7 @@
 This file takes two parameters as input one is paragraph as a string, an integer value as width and gives an array of lines that fit within specified width.
 
 # Assumption
-Assuming minimum of one character space between words.
+Assuming minimum of one character space between words and length of line is less than or equal to the width.
 
 # Usage
 python ./paragraph.py <"Paragraph String"> <"integer_value">
@@ -28,18 +28,11 @@ Array[7] = "actually      works."
 ## Input 2: 
 width = 15
 
-python ./paragraph.py "This is a sample text but a complicated problem to be solved, so we are adding more text to see that it actually works." 15
+python ./paragraph.py "This is a sample text but a complicated problem to be solved, so we are adding more text to see that it actually works." 100
 ## Output 2:
 <pre>
-Array[1] = "This    is    a"
-Array[2] = "sample text but"
-Array[3] = "a   complicated"
-Array[4] = "problem  to  be"
-Array[5] = "solved,  so  we"
-Array[6] = "are adding more"
-Array[7] = "text   to   see"
-Array[8] = "that         it"
-Array[9] = "actually works."
+Array[1] = "This is a sample text but a complicated problem to be solved, so we are adding more text to see that"
+Array[2] = "it                                          actually                                          works."
 </pre>
 
 ## Input 3:
