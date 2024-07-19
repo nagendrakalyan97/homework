@@ -1,4 +1,4 @@
-# Paragraph slice based on width
+# Paragraph to lines based on width
 
 This file takes two parameters as input one is paragraph as a string, an integer value as width and gives an array of lines that fit within specified width.
 
