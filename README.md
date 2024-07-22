@@ -6,13 +6,13 @@ This file takes two parameters as input one is paragraph as a string, an integer
 Assuming minimum of one character space between words and length of line is less than or equal to the width.
 
 # Usage
-python ./paragraph.py <"Paragraph String"> <"integer_value">
+python3 ./paragraph.py <"Paragraph String"> <"integer_value">
 
 # Example
 ## Input 1:
 width = 20
 
-python ./paragraph.py "This is a sample text but a complicated problem to be solved, so we are adding more text to see that it actually works." 20
+python3 ./paragraph.py "This is a sample text but a complicated problem to be solved, so we are adding more text to see that it actually works." 20
 
 ## Output 1:
 <pre>
@@ -28,7 +28,7 @@ Array[7] = "actually      works."
 ## Input 2: 
 width = 15
 
-python ./paragraph.py "This is a sample text but a complicated problem to be solved, so we are adding more text to see that it actually works." 100
+python3 ./paragraph.py "This is a sample text but a complicated problem to be solved, so we are adding more text to see that it actually works." 100
 ## Output 2:
 <pre>
 Array[1] = "This is a sample text but a complicated problem to be solved, so we are adding more text to see that"
@@ -38,7 +38,7 @@ Array[2] = "it                                          actually                
 ## Input 3:
 width = 30
 
-python ./paragraph.py "This is a sample text but a complicated problem to be solved, so we are adding more text to see that it actually works." 30
+python3 ./paragraph.py "This is a sample text but a complicated problem to be solved, so we are adding more text to see that it actually works." 30
 ## Output 3:
 
 <pre>
@@ -52,7 +52,7 @@ Array[5] = "works.                        "
 ## Input 4:
 width = 5
 
-python ./paragraph.py "This is a sample text but a complicated problem to be solved, so we are adding more text to see that it actually works." 5
+python3 ./paragraph.py "This is a sample text but a complicated problem to be solved, so we are adding more text to see that it actually works." 5
 ## Output 4:
 <pre>
 Array[1] = "This "
