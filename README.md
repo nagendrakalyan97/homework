@@ -6,7 +6,7 @@ This file takes two parameters as input one is paragraph as a string, an integer
 Assuming minimum of one character space between words and length of line is less than or equal to the width.
 
 # Usage
-python3 ./paragraph.py <"Paragraph String"> <"integer_value">
+python ./paragraph.py <"Paragraph String"> <"integer_value">
 
 # Example
 ## Input 1:
